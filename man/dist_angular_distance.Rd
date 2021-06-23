@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{dist_angular_distance}
 \alias{dist_angular_distance}
-\title{Obtain Angular Distance}
+\title{Obtain Angular Distance.}
 \usage{
 dist_angular_distance(vec1, vec2)
 }

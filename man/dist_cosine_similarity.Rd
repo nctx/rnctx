@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{dist_cosine_similarity}
 \alias{dist_cosine_similarity}
-\title{Obtain Cosine Similarity}
+\title{Obtain Cosine Similarity.}
 \usage{
 dist_cosine_similarity(vec1, vec2)
 }

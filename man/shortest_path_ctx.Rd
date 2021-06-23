@@ -2,7 +2,7 @@
 % Please edit documentation in R/paths.R
 \name{shortest_path_ctx}
 \alias{shortest_path_ctx}
-\title{Obtain shortest paths with dynamic contextual constraints}
+\title{Obtain shortest paths with dynamic contextual constraints.}
 \usage{
 shortest_path_ctx(g, s, decision_fct)
 }

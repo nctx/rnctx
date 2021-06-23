@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{dist_kl_divergence}
 \alias{dist_kl_divergence}
-\title{Obtain Kullback Leibler Divergence}
+\title{Obtain Kullback Leibler Divergence.}
 \usage{
 dist_kl_divergence(vec1, vec2)
 }

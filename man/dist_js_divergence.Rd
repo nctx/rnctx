@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{dist_js_divergence}
 \alias{dist_js_divergence}
-\title{Obtain Jenson Shannon Divergence}
+\title{Obtain Jenson Shannon Divergence.}
 \usage{
 dist_js_divergence(vec1, vec2)
 }

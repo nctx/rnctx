@@ -1,4 +1,4 @@
-#' Betweenness centrality with dynamic contextual constraints
+#' Betweenness centrality with dynamic contextual constraints.
 #'
 #' Using this function allows obtaining betweenness centrality under dynamic contextual constraints. Enforcement of constraints is the task of the given user-defined function.
 #'
@@ -95,7 +95,7 @@ betweenness_ctx <- function(g, betw_decision_fct){
   g$graph$betweenness(betw_decision_fct)
 }
 
-#' Closeness centrality with dynamic contextual constraints
+#' Closeness centrality with dynamic contextual constraints.
 #'
 #' Using this function allows obtaining closeness centrality under dynamic contextual constraints. Enforcement of constraints is the task of the given user-defined function.
 #'

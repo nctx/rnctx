@@ -1,4 +1,4 @@
-#' Obtain shortest paths with dynamic contextual constraints
+#' Obtain shortest paths with dynamic contextual constraints.
 #'
 #' Single-source shortest paths using Dijkstra's algorithm taking into account contextual constraints. Enforcement of constraints is the task of the given user-defined function.
 #'

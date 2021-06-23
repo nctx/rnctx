@@ -45,7 +45,7 @@ as_edgelist <- function(g){
 }
 
 
-#' Obtain Kullback Leibler Divergence
+#' Obtain Kullback Leibler Divergence.
 #'
 #' A straightforward implementation of KL Divergence. Note that both lists must be probability distributions, i.e. they sum to one. This is not checked internally and will result in obscure results if not taken care of.
 #'
@@ -70,7 +70,7 @@ dist_kl_divergence <- function(vec1, vec2){
   kl_divergence(vec1, vec2)
 }
 
-#' Obtain Jenson Shannon Divergence
+#' Obtain Jenson Shannon Divergence.
 #'
 #' A straightforward implementation of JS Divergence. Note that both lists must be probability distributions, i.e. they sum to one. This is not checked internally and will result in obscure results if not taken care of.
 #'
@@ -95,7 +95,7 @@ dist_js_divergence <- function(vec1, vec2){
   js_divergence(vec1, vec2)
 }
 
-#' Obtain Euclidean Distance
+#' Obtain Euclidean Distance.
 #'
 #' A straightforward implementation of Euclidean Distance.
 #'
@@ -116,7 +116,7 @@ dist_euclidean_distance <- function(vec1, vec2){
   euclidean_distance(vec1, vec2)
 }
 
-#' Obtain Cosine Similarity
+#' Obtain Cosine Similarity.
 #'
 #' A straightforward implementation of Cosine Similarity.
 #'
@@ -137,7 +137,7 @@ dist_cosine_similarity <- function(vec1, vec2){
   cosine_similarity(vec1, vec2)
 }
 
-#' Obtain Angular Distance
+#' Obtain Angular Distance.
 #'
 #' A straightforward implementation of Angular Distance.
 #'

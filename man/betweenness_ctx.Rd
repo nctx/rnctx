@@ -2,7 +2,7 @@
 % Please edit documentation in R/centralities.R
 \name{betweenness_ctx}
 \alias{betweenness_ctx}
-\title{Betweenness centrality with dynamic contextual constraints}
+\title{Betweenness centrality with dynamic contextual constraints.}
 \usage{
 betweenness_ctx(g, betw_decision_fct)
 }

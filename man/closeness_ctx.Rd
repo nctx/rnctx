@@ -2,7 +2,7 @@
 % Please edit documentation in R/centralities.R
 \name{closeness_ctx}
 \alias{closeness_ctx}
-\title{Closeness centrality with dynamic contextual constraints}
+\title{Closeness centrality with dynamic contextual constraints.}
 \usage{
 closeness_ctx(g, clsn_decision_fct)
 }

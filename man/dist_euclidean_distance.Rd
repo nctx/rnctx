@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{dist_euclidean_distance}
 \alias{dist_euclidean_distance}
-\title{Obtain Euclidean Distance}
+\title{Obtain Euclidean Distance.}
 \usage{
 dist_euclidean_distance(vec1, vec2)
 }
