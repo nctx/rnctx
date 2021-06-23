@@ -1,5 +1,5 @@
 
-# nctx
+# nctx - Networks in ConTeXt
 
 <!-- badges: start -->
 <!-- badges: end -->
