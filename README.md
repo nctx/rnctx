@@ -10,7 +10,7 @@ The extension `nctx` provides functionality to analyze attributed networks. Uniq
 
 You can install the released version of nctx from [github](https://github.com/nctx/rnctx) with:
 
-``` {r, eval=FALSE}
+```{r, eval=FALSE}
 library(devtools)
 install_github("nctx/rnctx")
 ```
@@ -20,7 +20,7 @@ install_github("nctx/rnctx")
 This is a basic example of how to process attributed networks. For the creation of the graph, there are three choices: create the graph from scratch, load it from a file (in the [GraphML](https://en.wikipedia.org/wiki/GraphML) format), or copy it from [igraph](https://igraph.org/r/).
 
 This example shows how to do things from scratch.
-``` r
+```r
 require(nctx)
 
 g <- create_graph(directed=FALSE)
@@ -45,7 +45,7 @@ add_edge(g, 10, 5)
 add_edge(g, 10, 9)
 ```
 
-![](inst/extdata/minbcd.png "The example graph")
+![The example graph](inst/extdata/minbcd.png)
 
 Next to our graph we create a list of attributes or context information
 ```r
@@ -66,7 +66,7 @@ Here, we use an edge only if its source and end vertex have the same context inf
 path <- find_path_ctx(g, 1, 7, decision_fct)
 ```
 
-![](inst/extdata/minbcd_path.png "The example graph with the shortest path from 1 to 7 highlighted")
+![The example graph with the shortest path from 1 to 7 highlighted](inst/extdata/minbcd_path.png)
 
 The shortest path from `1` to `7` is:
 ```
