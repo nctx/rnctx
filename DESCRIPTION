@@ -2,7 +2,7 @@ Package: nctx
 Type: Package
 Title: nctx: Networks in ConTeXt
 Version: 0.1
-Date: 2021-06-28
+Date: 2021-07-07
 Author: Mirco Schoenfeld [aut,cre]
 Maintainer: Mirco Schoenfeld <mirco.schoenfeld@uni-bayreuth.de>
 Description: The 'nctx' package provides functionality to obtain shortest paths and infer shortest-path-based centrality metrics in attributed networks. Although graphs can be loaded from files, this package provides seamless integration to igraph.
@@ -13,4 +13,4 @@ Suggests: igraph,RUnit
 URL: https://nctx.mircoschoenfeld.de/R/, https://github.com/nctx/rnctx
 RoxygenNote: 7.1.1
 NeedsCompilation: yes
-Packaged: 2021-06-28 03:29:31 UTC; mirco
+Packaged: 2021-07-07 09:49:50 UTC; mirco

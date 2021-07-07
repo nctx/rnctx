@@ -6,6 +6,8 @@
 
 The extension `nctx` provides functionality to analyze attributed networks. Unique feature of this extension is the ability to enforce contextual constraints via user-defined functions during shortest path discovery and centrality calculation. More info and full documentation can be found [here](https://nctx.mircoschoenfeld.de/R/)
 
+The source code is accessible [on github](https://github.com/nctx/rnctx).
+
 ## Installation
 
 You can install the released version of nctx from [github](https://github.com/nctx/rnctx) with:
